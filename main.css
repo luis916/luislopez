@@ -1,4 +1,44 @@
-body 
-{
-background-color:gray;
+body{
+    background-color: white;
 }
+.dropdown-btn{
+    background-color: black;
+    padding: 14px;
+    border: none;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    cursor: pointer;
+}
+.dropdown-content{
+    position: fixed;
+    
+}
+.dropdown-content a{
+    background-color:black;
+    color: white;
+   
+    min-width: 160px;
+    font-size: 20px;
+    font-style: arial;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 14px;
+    display: none;
+   
+}
+.dropdown-content a:hover{
+    background-color: rgb(79, 206, 79);
+}
+.dropdown .dropdown-btn:hover{
+    background-color: rgb(79, 206, 79);
+}
+.dropdown:hover .dropdown-content a{
+    display: block;
+}
+.dropdown{
+    max-width: 115.84px;
+    left: 200px;
+    top: 300px;
+    position: relative;
+    
