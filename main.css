@@ -1,4 +1,4 @@
-body {background-color:rgb(212, 133, 133);}
+
 ul{
     position: fixed;
     top: 0px;
@@ -11,24 +11,67 @@ ul{
     padding: 0;
     margin: 0;
 }
-   
+ul{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    left: 62px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
 ul li{
-
-
-display: inline;
-padding: 14px;
-list-style-type: none;
-
-
+    padding: 14px;
+    float: left;
+    list-style-type: none;
 }
 ul li a{
-    padding: 14px;
-    color:white;
+    
+    color: white;
     text-decoration: none;
-    font-style: arial;
     font-size: 20px;
+    font-family: arial;
+}
+ul li:hover{
+    background-color: rgb(185, 183, 183);
 }
 .contacto{
+    
     background-color: green;
-  
+}
+.dropdown-btn 
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+    background-color: green;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    top: 50px;
+    list-style-type: none;
+    left: 0;
+    background-color: black;
+   
+    padding: 14px;
+}
+.dropdown-content a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown-content a:hover
+{
+    background-color: blue;
 }
